@@ -1,7 +1,7 @@
 # Bay Wheels (Ford GoBike) System Data Explanatory Visualization
 ## Introduction
 ### Investigation Overview
-In this project, I investigated Bay Wheels (Ford GoBike) public datasets. [Bay Wheels](https://en.wikipedia.org/wiki/Bay_Wheels) is a regional public bicycle sharing system in California's San Francisco Bay Area. Bay Wheels is the first regional and large-scale bicycle sharing system deployed in California and on the West Coast of the United States.
+In this project, I investigated Bay Wheels (Ford GoBike) public datasets. [Bay Wheels](https://en.wikipedia.org/wiki/Bay_Wheels) is a regional public bicycle sharing system in California's San Francisco Bay Area.
 
 The objective of this study is to investigate the bike activity patterns and the effects of trip characteristics on the average trip duration, for Bay Wheels's public bicycle sharing system during a seven-month period. Since April, Bay Wheels changed the structure of their public dataset by including the rideable type (electric or docked bike). Therefore, I used the data starting from April 2020 until October 2020 for consistency purpose. I downloaded the datasets for each months from its [website](https://www.lyft.com/bikes/bay-wheels/system-data) and concatenated them into one single master dataset.
 I went through the steps of an explanatory data visualization, systematically starting from univariate visualizations, moving through bivariate visualizations, and finally multivariate visualizations.
@@ -10,17 +10,17 @@ To finishing up, I worked on polishing up selected plots for presentation from t
 ### Dataset Overview
 The dataset included information about individual rides made in a bike-sharing system covering three Californa's cities, San Francisco, San Jose and Oakland, for a seven months period, from April 2020 until October 2020. The data consisted of the location of the stations, the time the users picked up and returned the bike, user type and what type of bike they used for the trip. There are approximately 1 million data points. 1057 data points were removed from the analysis due to inconsistencies or missing information.
 
-## Bay Wheels (Ford GoBike)
+## Bay Wheels
 Bike sharing has emerged as one of the most-trending forms of mobility in the current era. Digitalization has enabled bike sharing to become a fully integrated part of urban mobility.
 
-Bike sharing...
-... is faster than walking
-... is cheaper than taxis and car sharing
-... is more flexible than public trans- port
-... requires less maintenance and is less expensive than owning a car
-... can be combined with other means of transport
+Bike sharing is popular nowadays because it
+- is faster than walking
+- is cheaper than taxis and car sharing
+- is more flexible than public transport
+- requires less maintenance and is less expensive than owning a car
+- can be combined with other means of transport
 
-[Bay Wheels](https://en.wikipedia.org/wiki/Bay_Wheels) is a regional public bicycle sharing system in California's San Francisco Bay Area.
+Bay Wheels is the first regional and large-scale bicycle sharing system deployed in California and on the West Coast of the United States.
 It is operated by Motivate in a partnership with the Metropolitan Transportation Commission and the Bay Area Air Quality Management District. Bay Wheels is the first regional and large-scale bicycle sharing system deployed in California and on the West Coast of the United States.
 It was established as Bay Area Bike Share in August 2013. As of January 2018, the Bay Wheels system had over 2,600 bicycles in 262 stations across San Francisco, East Bay and San Jose. In June 2017 the system was officially re-launched as Ford GoBike in a partnership with Ford Motor Company. After Motivate's acquisition by Lyft, the system was renamed to Bay Wheels in June 2019.
 
@@ -42,7 +42,9 @@ A good explanatory visualization will help us to convey the findings and impress
 - Casual users have a longer trip compared to member users in average, and they use electric bikes generally for a shorter distance trip, whereas they prefer docked bike for a longer distance trip.
 
 ## Key Insights for Presentation
-For the presentation, I dropped out the city variable as it did not give meaningful insights. Instead, I focused on answering the following questions:
+For the presentation, I dropped out the city variable as it did not give meaningful insights. 80% of the data points are from San Francisco. Therefore, it would not give a fair comparison betweent the cities.
+Instead, I focused on independent variables like hour of the day, day of the week, user types and bike types.
+The topics that I covered in the presentations are:
 1. When are most trips taken in terms of time of day or day of the week?
 2. How long does the average trip take?
 3. Does the average trip duration depend on
