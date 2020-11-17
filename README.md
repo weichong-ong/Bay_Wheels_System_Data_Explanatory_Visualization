@@ -1,13 +1,16 @@
 # Bay Wheels (Ford GoBike) System Data Explanatory Visualization
-## Introduction
-### Investigation Overview
+<p align="center">
+  <img src="/images/Multivariate_Plots_heatmap.png" height="450" width="600" />
+</p>
+
+## Investigation Overview
 In this project, I investigated Bay Wheels (Ford GoBike) public datasets. [Bay Wheels](https://en.wikipedia.org/wiki/Bay_Wheels) is a regional public bicycle sharing system in California's San Francisco Bay Area.
 
 The objective of this study is to investigate the bike activity patterns and the effects of trip characteristics on the average trip duration, for Bay Wheels's public bicycle sharing system during a seven-month period. Since April, Bay Wheels changed the structure of their public dataset by including the rideable type (electric or docked bike). Therefore, I used the data starting from April 2020 until October 2020 for consistency purpose. I downloaded the datasets for each months from its [website](https://www.lyft.com/bikes/bay-wheels/system-data) and concatenated them into one single master dataset.
 I went through the steps of an explanatory data visualization, systematically starting from univariate visualizations, moving through bivariate visualizations, and finally multivariate visualizations.
 To finishing up, I worked on polishing up selected plots for presentation from the analysis so that their main points can be clearly conveyed to others.
 
-### Dataset Overview
+## Dataset Overview
 The dataset included information about individual rides made in a bike-sharing system covering three Californa's cities, San Francisco, San Jose and Oakland, for a seven months period, from April 2020 until October 2020. The data consisted of the location of the stations, the time the users picked up and returned the bike, user type and what type of bike they used for the trip. There are approximately 1 million data points. 1057 data points were removed from the analysis due to inconsistencies or missing information.
 
 ## Bay Wheels
