@@ -1,6 +1,6 @@
 # Bay Wheels (Ford GoBike) System Data Explanatory Visualization
 <p align="center">
-  <img src="/images/Multivariate_Plots_heatmap.png" height="450" width="600" />
+  <img src="/images/Multivariate_Plots_heatmap.png" height="400" width="600" />
 </p>
 
 ## Investigation Overview
